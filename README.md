@@ -17,6 +17,7 @@ Detalhes das Camadas Delta Lake:
 - Bronze Layer: dados brutos como foram recebidos, sem transformação.
 - Silver Layer: dados limpos, normalizados, com tipos corretos e joins aplicados.
 - Gold Layer: dados prontos para consumo analítico e agregações.
+
 ![alt text](architecture.png)
 ## Como Executar
 1. Provisionar recursos no Azure usando Bicep ou Terraform.
