@@ -36,9 +36,9 @@ Creation of a data ingestion and transformation pipeline in a Data Lake (ADLS Ge
 - Ingestion (Azure Data Factory)
 - Store (Azure Data Lake Gen2 + Delta Lake)
 - Processing (Azure Databricks (PySpark/SQL))
-- Catalog de Metadados (Unity Catalog (opcional))
+- Catalog de Metadados (Unity Catalog (optional))
 - Visualization (Power BI (Direct Lake, Import, DQ))
-- Governance (Azure Purview (opcional))
+- Governance (Azure Purview (optional))
 - Monitoring (Azure Monitor / Log Analytics)
 ## Architecture
 Delta Lake Layer Details:
