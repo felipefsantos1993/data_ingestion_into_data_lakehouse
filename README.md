@@ -1,4 +1,5 @@
 # Data Ingestion into Data Lakehouse
+![alt text](cover.png)
 ## Visão Geral
 Criação de um pipeline de ingestão e transformação de dados em um Data Lake (ADLS Gen2), com processamento em Azure Databricks (PySpark), orquestração em Azure Data Factory e visualização em Power BI.
 ## Objetivos
