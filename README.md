@@ -17,7 +17,7 @@ Este projeto demonstra um pipeline completo de engenharia de dados usando:
 
 ## Arquitetura
 
-![arquitetura](docs/arquitetura.png)
+![alt text](image.png)
 
 ## Como Executar
 
