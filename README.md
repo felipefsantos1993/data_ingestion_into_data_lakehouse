@@ -8,7 +8,7 @@ Este projeto demonstra um pipeline completo de engenharia de dados usando:
 - Azure Data Lake Storage Gen2
 - Databricks (PySpark + Delta Lake)
 - Power BI
-- Orquestração com Azure Data Factory
+- Azure Data Factory
 
 ## Objetivos
 - Armazenar dados brutos em um Data Lake
