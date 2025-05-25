@@ -12,7 +12,7 @@ Criação de um pipeline de ingestão e transformação de dados em um Data Lake
 - PySpark
 - Power BI
 ## Arquitetura
-![alt text](image.png)
+![alt text](architecture.png)
 ## Como Executar
 1. Provisionar recursos no Azure usando Bicep ou Terraform.
 2. Carregar dados de exemplo em `data/` para o Data Lake.
