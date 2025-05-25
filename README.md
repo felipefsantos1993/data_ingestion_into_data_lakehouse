@@ -29,9 +29,9 @@ Detalhes das Camadas Delta Lake:
 5. Abrir o dashboard em `powerbi/sales_dashboard.pbix`.
 ## Requisitos
 - Teste
-###
-###
-###
+#
+#
+#
 # Data Ingestion into Data Lakehouse
 ![alt text](cover.png)
 ## Visão Geral
