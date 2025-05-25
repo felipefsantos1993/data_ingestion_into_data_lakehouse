@@ -21,14 +21,6 @@ Detalhes das Camadas Delta Lake:
 - Gold Layer: dados prontos para consumo analítico e agregações.
 
 ![alt text](architecture.png)
-## Como Executar
-1. Provisionar recursos no Azure usando Bicep ou Terraform.
-2. Carregar dados de exemplo em `data/` para o Data Lake.
-3. Rodar os notebooks Databricks.
-4. Executar o pipeline Data Factory (`pipelines/`).
-5. Abrir o dashboard em `powerbi/sales_dashboard.pbix`.
-## Requisitos
-- Teste
 #
 #
 #
@@ -55,11 +47,3 @@ Detalhes das Camadas Delta Lake:
 - Gold Layer: dados prontos para consumo analítico e agregações.
 
 ![alt text](architecture.png)
-## Como Executar
-1. Provisionar recursos no Azure usando Bicep ou Terraform.
-2. Carregar dados de exemplo em `data/` para o Data Lake.
-3. Rodar os notebooks Databricks.
-4. Executar o pipeline Data Factory (`pipelines/`).
-5. Abrir o dashboard em `powerbi/sales_dashboard.pbix`.
-## Requisitos
-- Teste
