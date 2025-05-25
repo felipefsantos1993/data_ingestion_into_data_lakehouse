@@ -1,26 +1,24 @@
 # Data Lakehouse com Azure Data Factory, Databricks e Power BI
 
-Criação de um pipeline de ingestão e transformação de dados em um Data Lake (ADLS Gen2), com processamento em Azure Databricks (PySpark), orquestração em Azure Data Factory e visualização em Power BI.
-
 ## Visão Geral
-
-Este projeto demonstra um pipeline completo de engenharia de dados usando:
-- Azure Data Lake Storage Gen2
-- Databricks (PySpark + Delta Lake)
-- Power BI
-- Azure Data Factory
+Criação de um pipeline de ingestão e transformação de dados em um Data Lake (ADLS Gen2), com processamento em Azure Databricks (PySpark), orquestração em Azure Data Factory e visualização em Power BI.
 
 ## Objetivos
 - Armazenar dados brutos em um Data Lake
-- Realizar ETL com Spark
+- Realizar processso de ELT com Azure Data Factory e Apache Spark
 - Servir dados limpos para visualização em Power BI
 
-## Arquitetura
+## Tecnologias
+- Azure Data Lake Storage Gen2
+- Azure Data Factory
+- Databricks
+- PySpark
+- Power BI
 
+## Arquitetura
 ![alt text](image.png)
 
 ## Como Executar
-
 1. Provisionar recursos no Azure usando Bicep ou Terraform.
 2. Carregar dados de exemplo em `data/` para o Data Lake.
 3. Rodar os notebooks Databricks.
