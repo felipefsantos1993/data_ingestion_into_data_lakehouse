@@ -1,5 +1,7 @@
 # Ingestão de Dados em Data Lakehouse
+
 ![alt text](cover.png)
+
 ## Visão Geral
 Criação de um pipeline de ingestão e transformação de dados em um Data Lake (ADLS Gen2), com processamento em Azure Databricks (PySpark), orquestração em Azure Data Factory e visualização em Power BI.
 ## Objetivos
@@ -21,11 +23,14 @@ Detalhes das Camadas Delta Lake:
 - Camada Ouro: dados prontos para consumo analítico e agregações.
 
 ![alt text](architecture.png)
+
 #
 #
 #
 # Data Ingestion into Data Lakehouse
+
 ![alt text](cover.png)
+
 ## Overview
 Creation of a data ingestion and transformation pipeline in a Data Lake (ADLS Gen2), with processing in Azure Databricks (PySpark), orchestration in Azure Data Factory and visualization in Power BI.
 ## Objectives
