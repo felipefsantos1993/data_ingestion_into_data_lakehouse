@@ -3,15 +3,15 @@
 ![alt text](cover.png)
 
 ## Visão Geral
-Criação de um pipeline de ingestão e transformação de dados em um Data Lake (ADLS Gen2), com processamento em Azure Databricks (PySpark), orquestração em Azure Data Factory e visualização em Power BI.
+Criação de um pipeline de ingestão e transformação de dados em um Data Lake (ADLS Gen2), com processamento em Databricks (PySpark), orquestração em Azure Data Factory e visualização em Power BI.
 ## Objetivos
-- Armazenar dados brutos em um Data Lake
-- Realizar processso de ELT com Azure Data Factory e Apache Spark
-- Servir dados limpos para visualização em Power BI
+- Armazenar dados brutos em um Data Lake.
+- Realizar processso de ELT com Azure Data Factory e Apache Spark.
+- Servir dados limpos para visualização em Power BI.
 ## Tecnologias
 - Ingestão (Azure Data Factory)
 - Armazenamento (Azure Data Lake Gen2 + Delta Lake)
-- Processamento (Azure Databricks (PySpark/SQL))
+- Processamento (Databricks (PySpark/SQL))
 - Catálogo de Metadados (Unity Catalog (opcional))
 - Visualização (Power BI (Direct Lake, Import, DQ))
 - Governança (Azure Purview (opcional))
@@ -25,7 +25,7 @@ Detalhes das Camadas Delta Lake:
 ![alt text](architecture.png)
 
 ## Documentações Utilizadas
-
+link
 #
 #
 #
@@ -34,15 +34,15 @@ Detalhes das Camadas Delta Lake:
 ![alt text](cover.png)
 
 ## Overview
-Creation of a data ingestion and transformation pipeline in a Data Lake (ADLS Gen2), with processing in Azure Databricks (PySpark), orchestration in Azure Data Factory and visualization in Power BI.
+Creation of a data ingestion and transformation pipeline in a Data Lake (ADLS Gen2), with processing in Databricks (PySpark), orchestration in Azure Data Factory and visualization in Power BI.
 ## Objectives
-- Store Raw Data in a Data Lake
-- Perform ELT processes with Azure Data Factory and Apache Spark
-- Serve clean data for visualization in Power BI
+- Store Raw Data in a Data Lake.
+- Perform ELT processes with Azure Data Factory and Apache Spark.
+- Serve clean data for visualization in Power BI.
 ## Technologies
 - Ingestion (Azure Data Factory)
 - Store (Azure Data Lake Gen2 + Delta Lake)
-- Processing (Azure Databricks (PySpark/SQL))
+- Processing (Databricks (PySpark/SQL))
 - Catalog de Metadados (Unity Catalog (optional))
 - Visualization (Power BI (Direct Lake, Import, DQ))
 - Governance (Azure Purview (optional))
@@ -56,3 +56,4 @@ Delta Lake Layer Details:
 ![alt text](architecture.png)
 
 ## Documentation Used
+link
