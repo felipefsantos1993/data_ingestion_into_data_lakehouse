@@ -13,9 +13,9 @@ Criação de um pipeline de ingestão e transformação de dados em um Data Lake
 - Armazenamento (Azure Data Lake Gen2 + Delta Lake)
 - Processamento (Databricks (PySpark/SQL))
 - Catálogo de Metadados (Unity Catalog (opcional))
-- Visualização (Power BI (Direct Lake, Import, DQ))
+- Visualização (Power BI (DirectQuery))
 - Governança (Azure Purview (opcional))
-- Monitoramento (Azure Monitor / Log Analytics)
+- Monitoramento (Azure Monitor/Log Analytics)
 ## Arquitetura
 Detalhes das Camadas Delta Lake:
 - Camada Bronze: dados brutos como foram recebidos, sem transformação.
@@ -44,9 +44,9 @@ Creation of a data ingestion and transformation pipeline in a Data Lake (ADLS Ge
 - Store (Azure Data Lake Gen2 + Delta Lake)
 - Processing (Databricks (PySpark/SQL))
 - Catalog de Metadados (Unity Catalog (optional))
-- Visualization (Power BI (Direct Lake, Import, DQ))
+- Visualization (Power BI (DirectQuery))
 - Governance (Azure Purview (optional))
-- Monitoring (Azure Monitor / Log Analytics)
+- Monitoring (Azure Monitor/Log Analytics)
 ## Architecture
 Delta Lake Layer Details:
 - Bronze Layer: raw data as received, without transformation.
