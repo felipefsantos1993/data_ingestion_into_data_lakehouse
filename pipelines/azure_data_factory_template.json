@@ -1,10 +1,70 @@
 {
-    "name": "pipeline1",
+    "name": "pipeline_template",
     "properties": {
         "activities": [
             {
-                "name": "bronze",
+                "name": "bronze_layer",
                 "type": "DatabricksNotebook",
+                "dependsOn": [
+                    {
+                        "activity": "data_ingestion",
+                        "dependencyConditions": [
+                            "Succeeded"
+                        ]
+                    }
+                ],
+                "policy": {
+                    "timeout": "0.12:00:00",
+                    "retry": 0,
+                    "retryIntervalInSeconds": 30,
+                    "secureOutput": false,
+                    "secureInput": false
+                },
+                "userProperties": []
+            },
+            {
+                "name": "silver_layer",
+                "type": "DatabricksNotebook",
+                "dependsOn": [
+                    {
+                        "activity": "bronze_layer",
+                        "dependencyConditions": [
+                            "Succeeded"
+                        ]
+                    }
+                ],
+                "policy": {
+                    "timeout": "0.12:00:00",
+                    "retry": 0,
+                    "retryIntervalInSeconds": 30,
+                    "secureOutput": false,
+                    "secureInput": false
+                },
+                "userProperties": []
+            },
+            {
+                "name": "gold_layer",
+                "type": "DatabricksNotebook",
+                "dependsOn": [
+                    {
+                        "activity": "silver_layer",
+                        "dependencyConditions": [
+                            "Succeeded"
+                        ]
+                    }
+                ],
+                "policy": {
+                    "timeout": "0.12:00:00",
+                    "retry": 0,
+                    "retryIntervalInSeconds": 30,
+                    "secureOutput": false,
+                    "secureInput": false
+                },
+                "userProperties": []
+            },
+            {
+                "name": "data_ingestion",
+                "type": "Copy",
                 "dependsOn": [],
                 "policy": {
                     "timeout": "0.12:00:00",
@@ -13,49 +73,20 @@
                     "secureOutput": false,
                     "secureInput": false
                 },
-                "userProperties": []
-            },
-            {
-                "name": "silver",
-                "type": "DatabricksNotebook",
-                "dependsOn": [
-                    {
-                        "activity": "bronze",
-                        "dependencyConditions": [
-                            "Succeeded"
-                        ]
-                    }
-                ],
-                "policy": {
-                    "timeout": "0.12:00:00",
-                    "retry": 0,
-                    "retryIntervalInSeconds": 30,
-                    "secureOutput": false,
-                    "secureInput": false
-                },
-                "userProperties": []
-            },
-            {
-                "name": "gold",
-                "type": "DatabricksNotebook",
-                "dependsOn": [
-                    {
-                        "activity": "silver",
-                        "dependencyConditions": [
-                            "Succeeded"
-                        ]
-                    }
-                ],
-                "policy": {
-                    "timeout": "0.12:00:00",
-                    "retry": 0,
-                    "retryIntervalInSeconds": 30,
-                    "secureOutput": false,
-                    "secureInput": false
-                },
-                "userProperties": []
+                "userProperties": [],
+                "typeProperties": {
+                    "enableStaging": false
+                }
             }
         ],
+        "parameters": {
+            "path_name": {
+                "type": "string"
+            },
+            "table_name": {
+                "type": "string"
+            }
+        },
         "annotations": []
     }
 }
