@@ -55,5 +55,5 @@ Delta Lake Layer Details:
 
 ![alt text](architecture.png)
 
-## Documentation Used
+## Documentations Used
 link
