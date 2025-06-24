@@ -24,6 +24,10 @@ Detalhes das Camadas Delta Lake:
 
 ![alt text](architecture.png)
 
+![alt text](OLTP.png)
+
+![alt text](DW.png)
+
 ## Documentações Utilizadas
 link
 #
@@ -54,6 +58,10 @@ Delta Lake Layer Details:
 - Gold Layer: data ready for analytical consumption and aggregations.
 
 ![alt text](architecture.png)
+
+![alt text](OLTP.png)
+
+![alt text](DW.png)
 
 ## Documentations Used
 link
