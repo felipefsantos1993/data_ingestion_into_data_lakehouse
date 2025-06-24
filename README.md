@@ -53,7 +53,7 @@ Delta Lake Layer Details:
 - Silver Layer: clean, normalized data, with correct types and joins applied.
 - Gold Layer: data ready for analytical consumption and aggregations.
 
-![alt text](architecture.png)
+![alt text](<architecture.png>)
 
 ## Documentations Used
 link
