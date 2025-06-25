@@ -22,11 +22,11 @@ Detalhes das Camadas Delta Lake:
 - Camada Prata: dados limpos, normalizados, com tipos corretos e joins aplicados.
 - Camada Ouro: dados prontos para consumo analítico e agregações.
 
-![alt text](architecture.png)
-
 ![alt text](OLTP.png)
 
 ![alt text](DW.png)
+
+![alt text](<architecture.png>)
 
 ## Documentações Utilizadas
 link
@@ -57,11 +57,11 @@ Delta Lake Layer Details:
 - Silver Layer: clean, normalized data, with correct types and joins applied.
 - Gold Layer: data ready for analytical consumption and aggregations.
 
-![alt text](architecture.png)
-
 ![alt text](OLTP.png)
 
 ![alt text](DW.png)
+
+![alt text](<architecture.png>)
 
 ## Documentations Used
 link
