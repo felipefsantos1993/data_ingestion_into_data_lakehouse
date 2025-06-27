@@ -30,6 +30,7 @@ Detalhes das Camadas Delta Lake:
 
 ## Documentações Utilizadas
 https://learn.microsoft.com/en-us/azure/data-factory
+
 https://learn.microsoft.com/en-us/azure/data-factory/transform-data-using-databricks-notebook
 #
 #
@@ -66,4 +67,5 @@ Delta Lake Layer Details:
 
 ## Documentations Used
 https://learn.microsoft.com/en-us/azure/data-factory
+
 https://learn.microsoft.com/en-us/azure/data-factory/transform-data-using-databricks-notebook
