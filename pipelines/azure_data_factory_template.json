@@ -1,5 +1,5 @@
 {
-    "name": "pipeline_template",
+    "name": "pipeline1",
     "properties": {
         "activities": [
             {
@@ -20,7 +20,19 @@
                     "secureOutput": false,
                     "secureInput": false
                 },
-                "userProperties": []
+                "userProperties": [],
+                "typeProperties": {
+                    "baseParameters": {
+                        "path_name": {
+                            "value": "@pipeline().parameters.path_name",
+                            "type": "Expression"
+                        },
+                        "bronze_table_name": {
+                            "value": "@pipeline().parameters.bronze_table_name",
+                            "type": "Expression"
+                        }
+                    }
+                }
             },
             {
                 "name": "silver_layer",
@@ -40,7 +52,23 @@
                     "secureOutput": false,
                     "secureInput": false
                 },
-                "userProperties": []
+                "userProperties": [],
+                "typeProperties": {
+                    "baseParameters": {
+                        "path_name": {
+                            "value": "@pipeline().parameters.path_name",
+                            "type": "Expression"
+                        },
+                        "bronze_table_name": {
+                            "value": "@pipeline().parameters.bronze_table_name",
+                            "type": "Expression"
+                        },
+                        "silver_table_name": {
+                            "value": "@pipeline().parameters.silver_table_name",
+                            "type": "Expression"
+                        }
+                    }
+                }
             },
             {
                 "name": "gold_layer",
@@ -83,7 +111,10 @@
             "path_name": {
                 "type": "string"
             },
-            "table_name": {
+            "bronze_table_name": {
+                "type": "string"
+            },
+            "silver_table_name": {
                 "type": "string"
             }
         },
