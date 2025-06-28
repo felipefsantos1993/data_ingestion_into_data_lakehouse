@@ -42,14 +42,14 @@ https://learn.microsoft.com/en-us/azure/data-factory/transform-data-using-databr
 ## Overview
 Creation of a data ingestion and transformation pipeline in a Data Lake (ADLS Gen2), with processing in Databricks (PySpark), orchestration in Azure Data Factory and visualization in Power BI.
 ## Objectives
-- Store Raw Data in a Data Lake.
-- Perform ELT processes with Azure Data Factory and Apache Spark.
-- Serve clean data for visualization in Power BI.
+- Storing Raw Data in a Data Lake.
+- Performing ELT processes with Azure Data Factory and Apache Spark.
+- Serving clean data for visualization in Power BI.
 ## Technologies
 - Ingestion (Azure Data Factory)
-- Store (Azure Data Lake Gen2 + Delta Lake)
+- Storing (Azure Data Lake Gen2 + Delta Lake)
 - Processing (Databricks (PySpark/SQL))
-- Catalog de Metadados (Unity Catalog (optional))
+- Metadada Catalog (Unity Catalog (optional))
 - Visualization (Power BI (DirectQuery))
 - Governance (Azure Purview (optional))
 - Monitoring (Azure Monitor/Log Analytics)
@@ -65,7 +65,7 @@ Delta Lake Layer Details:
 
 ![alt text](<architecture.png>)
 
-## Documentations Used
+## Documentation Used
 https://learn.microsoft.com/en-us/azure/data-factory
 
 https://learn.microsoft.com/en-us/azure/data-factory/transform-data-using-databricks-notebook
