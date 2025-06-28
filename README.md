@@ -1,5 +1,3 @@
-# Ingestão de Dados em Data Lakehouse
-
 ![alt text](cover.png)
 
 ## Visão Geral
@@ -36,8 +34,6 @@ https://learn.microsoft.com/en-us/azure/data-factory/transform-data-using-databr
 #
 #
 #
-# Data Ingestion into Data Lakehouse
-
 ![alt text](cover.png)
 
 ## Overview
